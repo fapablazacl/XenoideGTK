@@ -10,11 +10,11 @@
 #include "FolderBrowserGtk.h"
 
 namespace Xenoide {
-    class IDEFrameGtk : public Gtk::ApplicationWindow {
+    class MainWindow : public Gtk::ApplicationWindow {
     public:
-        IDEFrameGtk();
+        MainWindow();
 
-        ~IDEFrameGtk();
+        ~MainWindow();
 
     private:
         void on_action_file_new();
