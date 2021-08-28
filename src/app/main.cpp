@@ -10,9 +10,8 @@ using namespace Xenoide;
 
 int main(int argc, char* argv[]) {
     auto app = MainApplication::create(argc, argv, "org.fapablazacl.XenoideGTK");
-    auto window = IDEFrameGtk{};
-    
-    window.show();
+
+    IDEFrameGtk window;
 
     return app->run(window);
 }

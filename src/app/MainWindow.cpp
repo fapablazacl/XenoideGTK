@@ -38,6 +38,7 @@ namespace Xenoide {
         paned.show();
 
         std::cout << "    Done..." << std::endl;
+       
         maximize();
     }
 
